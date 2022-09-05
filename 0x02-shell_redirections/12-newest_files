@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -printf "%t - %\n" | sort -n tail
+ls -t | head
