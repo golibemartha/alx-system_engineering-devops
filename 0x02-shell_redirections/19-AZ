@@ -1,3 +1,2 @@
 #!/bin/bash
-echo Aca | tr Ac Ze
-Zea
+tr "A" "Z" | tr "c" "e"
