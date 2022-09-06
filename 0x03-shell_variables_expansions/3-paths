@@ -1,2 +1,2 @@
-#!/bin/bash
-tr ':' '\n' <<< "$PATH" | wc -l
+#!/bin/bash 
+echo $PATH | grep -o "/[[:alnum:]]*[:\n]" | wc -l
